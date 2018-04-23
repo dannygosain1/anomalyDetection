@@ -1,0 +1,1 @@
+/usr/bin/c++    -fopenmp -fopenmp -std=c++11   CMakeFiles/predict.dir/predict.c.o  -o predict -rdynamic libmulticore-liblinear.a 

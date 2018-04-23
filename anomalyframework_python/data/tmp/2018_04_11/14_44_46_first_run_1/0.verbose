@@ -1,0 +1,276 @@
+inputFile = '/home/danny/Downloads/first_run.train'
+inputFile_base = 'first_run.train'
+commandLine = -s 0 -c 0.001 -B 1
+outputDirectory = '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output'
+mkdir(/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output) -- created successfully
+cp /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/0.runinfo /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output
+approxMemoryMalloced = 1787328   (sizeof(feature_node) = 16
+1044 frames. minFrameNumber = 1; maxFrameNumber = 1044
+summary_numAllocated = 1045
+0.031178 seconds to read the file
+mkdir(/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000000) -- created successfully for run number 0
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000000/info.m'
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000000/frameorder.txt'
+thread 0 starting at 000000200
+thread 5 starting at 000000450
+thread 4 starting at 000000400
+thread 7 starting at 000000550
+thread 2 starting at 000000300
+thread 1 starting at 000000250
+thread 3 starting at 000000350
+thread 6 starting at 000000500
+thread 5 ended after generating 2 files
+thread 3 ended after generating 2 files
+thread 1 ended after generating 2 files
+thread 4 ended after generating 2 files
+thread 0 ended after generating 3 files
+thread 2 ended after generating 2 files
+thread 6 ended after generating 2 files
+thread 7 ended after generating 2 files
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000000/summary.txt'
+   144 frames never predicted
+   100 frames predicted once
+   800 frames predicted twice
+   0 frames predicted more than twice
+cat /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000000/*.predict >> /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000000/everything.predict
+pthread_join: all threads finished for run 0
+mkdir(/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000001) -- created successfully for run number 1
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000001/info.m'
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000001/frameorder.txt'
+thread 2 starting at 000000300
+thread 1 starting at 000000250
+thread 3 starting at 000000350
+thread 5 starting at 000000450
+thread 0 starting at 000000200
+thread 4 starting at 000000400
+thread 6 starting at 000000500
+thread 7 starting at 000000550
+thread 1 ended after generating 2 files
+thread 2 ended after generating 2 files
+thread 3 ended after generating 2 files
+thread 4 ended after generating 2 files
+thread 6 ended after generating 2 files
+thread 7 ended after generating 2 files
+thread 5 ended after generating 2 files
+thread 0 ended after generating 3 files
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000001/summary.txt'
+   144 frames never predicted
+   100 frames predicted once
+   800 frames predicted twice
+   0 frames predicted more than twice
+cat /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000001/*.predict >> /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000001/everything.predict
+pthread_join: all threads finished for run 1
+mkdir(/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000002) -- created successfully for run number 2
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000002/info.m'
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000002/frameorder.txt'
+thread 1 starting at 000000250
+thread 0 starting at 000000200
+thread 3 starting at 000000350
+thread 2 starting at 000000300
+thread 7 starting at 000000550
+thread 4 starting at 000000400
+thread 6 starting at 000000500
+thread 5 starting at 000000450
+thread 2 ended after generating 2 files
+thread 3 ended after generating 2 files
+thread 1 ended after generating 2 files
+thread 4 ended after generating 2 files
+thread 0 ended after generating 3 files
+thread 6 ended after generating 2 files
+thread 5 ended after generating 2 files
+thread 7 ended after generating 2 files
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000002/summary.txt'
+   144 frames never predicted
+   100 frames predicted once
+   800 frames predicted twice
+   0 frames predicted more than twice
+cat /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000002/*.predict >> /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000002/everything.predict
+pthread_join: all threads finished for run 2
+mkdir(/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000003) -- created successfully for run number 3
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000003/info.m'
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000003/frameorder.txt'
+thread 0 starting at 000000200
+thread 1 starting at 000000250
+thread 3 starting at 000000350
+thread 6 starting at 000000500
+thread 2 starting at 000000300
+thread 4 starting at 000000400
+thread 5 starting at 000000450
+thread 7 starting at 000000550
+thread 3 ended after generating 2 files
+thread 1 ended after generating 2 files
+thread 2 ended after generating 2 files
+thread 0 ended after generating 3 files
+thread 7 ended after generating 2 files
+thread 4 ended after generating 2 files
+thread 6 ended after generating 2 files
+thread 5 ended after generating 2 files
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000003/summary.txt'
+   144 frames never predicted
+   100 frames predicted once
+   800 frames predicted twice
+   0 frames predicted more than twice
+cat /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000003/*.predict >> /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000003/everything.predict
+pthread_join: all threads finished for run 3
+mkdir(/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000004) -- created successfully for run number 4
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000004/info.m'
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000004/frameorder.txt'
+thread 0 starting at 000000200
+thread 1 starting at 000000250
+thread 2 starting at 000000300
+thread 3 starting at 000000350
+thread 5 starting at 000000450
+thread 4 starting at 000000400
+thread 6 starting at 000000500
+thread 7 starting at 000000550
+thread 1 ended after generating 2 files
+thread 2 ended after generating 2 files
+thread 3 ended after generating 2 files
+thread 4 ended after generating 2 files
+thread 5 ended after generating 2 files
+thread 0 ended after generating 3 files
+thread 6 ended after generating 2 files
+thread 7 ended after generating 2 files
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000004/summary.txt'
+   144 frames never predicted
+   100 frames predicted once
+   800 frames predicted twice
+   0 frames predicted more than twice
+cat /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000004/*.predict >> /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000004/everything.predict
+pthread_join: all threads finished for run 4
+mkdir(/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000005) -- created successfully for run number 5
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000005/info.m'
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000005/frameorder.txt'
+thread 2 starting at 000000300
+thread 5 starting at 000000450
+thread 3 starting at 000000350
+thread 1 starting at 000000250
+thread 6 starting at 000000500
+thread 4 starting at 000000400
+thread 0 starting at 000000200
+thread 7 starting at 000000550
+thread 2 ended after generating 2 files
+thread 3 ended after generating 2 files
+thread 4 ended after generating 2 files
+thread 1 ended after generating 2 files
+thread 5 ended after generating 2 files
+thread 7 ended after generating 2 files
+thread 6 ended after generating 2 files
+thread 0 ended after generating 3 files
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000005/summary.txt'
+   144 frames never predicted
+   100 frames predicted once
+   800 frames predicted twice
+   0 frames predicted more than twice
+cat /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000005/*.predict >> /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000005/everything.predict
+pthread_join: all threads finished for run 5
+mkdir(/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000006) -- created successfully for run number 6
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000006/info.m'
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000006/frameorder.txt'
+thread 0 starting at 000000200
+thread 3 starting at 000000350
+thread 2 starting at 000000300
+thread 1 starting at 000000250
+thread 5 starting at 000000450
+thread 6 starting at 000000500
+thread 4 starting at 000000400
+thread 7 starting at 000000550
+thread 1 ended after generating 2 files
+thread 3 ended after generating 2 files
+thread 5 ended after generating 2 files
+thread 2 ended after generating 2 files
+thread 0 ended after generating 3 files
+thread 4 ended after generating 2 files
+thread 7 ended after generating 2 files
+thread 6 ended after generating 2 files
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000006/summary.txt'
+   144 frames never predicted
+   100 frames predicted once
+   800 frames predicted twice
+   0 frames predicted more than twice
+cat /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000006/*.predict >> /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000006/everything.predict
+pthread_join: all threads finished for run 6
+mkdir(/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000007) -- created successfully for run number 7
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000007/info.m'
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000007/frameorder.txt'
+thread 0 starting at 000000200
+thread 1 starting at 000000250
+thread 5 starting at 000000450
+thread 2 starting at 000000300
+thread 6 starting at 000000500
+thread 3 starting at 000000350
+thread 4 starting at 000000400
+thread 7 starting at 000000550
+thread 2 ended after generating 2 files
+thread 6 ended after generating 2 files
+thread 4 ended after generating 2 files
+thread 1 ended after generating 2 files
+thread 0 ended after generating 3 files
+thread 5 ended after generating 2 files
+thread 3 ended after generating 2 files
+thread 7 ended after generating 2 files
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000007/summary.txt'
+   144 frames never predicted
+   100 frames predicted once
+   800 frames predicted twice
+   0 frames predicted more than twice
+cat /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000007/*.predict >> /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000007/everything.predict
+pthread_join: all threads finished for run 7
+mkdir(/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000008) -- created successfully for run number 8
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000008/info.m'
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000008/frameorder.txt'
+thread 0 starting at 000000200
+thread 1 starting at 000000250
+thread 2 starting at 000000300
+thread 3 starting at 000000350
+thread 5 starting at 000000450
+thread 4 starting at 000000400
+thread 6 starting at 000000500
+thread 7 starting at 000000550
+thread 3 ended after generating 2 files
+thread 1 ended after generating 2 files
+thread 4 ended after generating 2 files
+thread 5 ended after generating 2 files
+thread 2 ended after generating 2 files
+thread 0 ended after generating 3 files
+thread 7 ended after generating 2 files
+thread 6 ended after generating 2 files
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000008/summary.txt'
+   144 frames never predicted
+   100 frames predicted once
+   800 frames predicted twice
+   0 frames predicted more than twice
+cat /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000008/*.predict >> /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000008/everything.predict
+pthread_join: all threads finished for run 8
+mkdir(/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000009) -- created successfully for run number 9
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000009/info.m'
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000009/frameorder.txt'
+thread 0 starting at 000000200
+thread 1 starting at 000000250
+thread 2 starting at 000000300
+thread 5 starting at 000000450
+thread 3 starting at 000000350
+thread 6 starting at 000000500
+thread 4 starting at 000000400
+thread 7 starting at 000000550
+thread 1 ended after generating 2 files
+thread 3 ended after generating 2 files
+thread 5 ended after generating 2 files
+thread 2 ended after generating 2 files
+thread 0 ended after generating 3 files
+thread 4 ended after generating 2 files
+thread 7 ended after generating 2 files
+thread 6 ended after generating 2 files
+Wrote '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000009/summary.txt'
+   144 frames never predicted
+   100 frames predicted once
+   800 frames predicted twice
+   0 frames predicted more than twice
+cat /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000009/*.predict >> /home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/000009/everything.predict
+pthread_join: all threads finished for run 9
+Wrote MEGA summary file: '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/summary.txt'
+   0 frames never predicted
+   0 frames predicted once
+   0 frames predicted twice
+   1044 frames predicted more than twice
+Wrote MEGA plot file: '/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_44_46_first_run_1/output/megaplot.m'

@@ -1,0 +1,9 @@
+commandLine=-s 0 -c 0.001 -B 1
+inputFile=/home/danny/Downloads/first_run.train
+outputDirectory=/home/danny/workspace/anomalyframework_python/data/tmp/2018_04_11/14_32_31_first_run_1/output
+numShuffles=10
+windowSize=100
+windowStride=50
+numThreads=8
+maxBufferSize=-1
+blockShuffleSize=1

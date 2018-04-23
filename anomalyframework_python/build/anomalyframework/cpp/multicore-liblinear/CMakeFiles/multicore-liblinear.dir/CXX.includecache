@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danny/workspace/anomalyframework_python/anomalyframework/cpp/multicore-liblinear/linear.cpp
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdarg.h
+-
+locale.h
+-
+linear.h
+/home/danny/workspace/anomalyframework_python/anomalyframework/cpp/multicore-liblinear/linear.h
+tron.h
+/home/danny/workspace/anomalyframework_python/anomalyframework/cpp/multicore-liblinear/tron.h
+omp.h
+-
+
+/home/danny/workspace/anomalyframework_python/anomalyframework/cpp/multicore-liblinear/linear.h
+
+/home/danny/workspace/anomalyframework_python/anomalyframework/cpp/multicore-liblinear/tron.cpp
+math.h
+-
+stdio.h
+-
+string.h
+-
+stdarg.h
+-
+tron.h
+/home/danny/workspace/anomalyframework_python/anomalyframework/cpp/multicore-liblinear/tron.h
+
+/home/danny/workspace/anomalyframework_python/anomalyframework/cpp/multicore-liblinear/tron.h
+

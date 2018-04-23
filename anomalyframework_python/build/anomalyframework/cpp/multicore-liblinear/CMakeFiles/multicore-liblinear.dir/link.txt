@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmulticore-liblinear.a  CMakeFiles/multicore-liblinear.dir/blas/daxpy.c.o CMakeFiles/multicore-liblinear.dir/blas/ddot.c.o CMakeFiles/multicore-liblinear.dir/blas/dnrm2.c.o CMakeFiles/multicore-liblinear.dir/blas/dscal.c.o CMakeFiles/multicore-liblinear.dir/predict.c.o CMakeFiles/multicore-liblinear.dir/train.c.o CMakeFiles/multicore-liblinear.dir/linear.cpp.o CMakeFiles/multicore-liblinear.dir/tron.cpp.o
+/usr/bin/ranlib libmulticore-liblinear.a

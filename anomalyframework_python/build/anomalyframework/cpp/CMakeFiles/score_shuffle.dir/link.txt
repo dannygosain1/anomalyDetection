@@ -1,0 +1,1 @@
+/usr/bin/c++    -fopenmp -fopenmp   CMakeFiles/score_shuffle.dir/score_shuffle.cpp.o  -o score_shuffle -rdynamic multicore-liblinear/libmulticore-liblinear.a 
