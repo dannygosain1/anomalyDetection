@@ -3,11 +3,10 @@
 ### System Requirements
 1. ffmpeg for frame extraction from video
 2. OpenMP
-3. Python 3 (the framework can run on Python 2, but the feature extraction can only be done in Python 3)
-
 ```
 sudo apt-get install gcc-multilib
 ```
+3. Python 3 (the framework can run on Python 2, but the feature extraction can only be done in Python 3)
 
 ### Using python virtualenv to run the framework - perform these steps inside the framework directory
 
